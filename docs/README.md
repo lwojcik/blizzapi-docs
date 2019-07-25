@@ -2,7 +2,7 @@
 home: true
 actionText: Get Started →
 actionLink: /docs/
-footer: MIT Licensed | Copyright © 2019 Łukasz Wójcik
+footer: MIT Licensed • Copyright © 2019 Łukasz Wójcik • Not created, affiliated or endorsed in any way by Blizzard Entertainment
 ---
 
 ### Install
@@ -22,5 +22,5 @@ const api = new BlizzAPI({
   clientSecret: 'client secret'
 });
 
-const data = await api.query('/path/to/endpoint');
+await api.query('/path/to/endpoint');
 ``` 

@@ -1,6 +1,6 @@
 module.exports = {
   title: 'BlizzAPI',
-  description: 'Flexible feature-rich library for Blizzard Battle.net APIs',
+  description: 'Flexible and feature-rich Node.js library for Blizzard Battle.net APIs',
   displayAllHeaders: true,
   themeConfig: {
     lastUpdated: 'Last Updated',
@@ -16,6 +16,7 @@ module.exports = {
         collapsable: false,
         children: [
          '/docs/',
+         '/docs/requirements.md',
          '/docs/install.md',
          '/docs/examples.md',
         ],
