@@ -1,6 +1,6 @@
 module.exports = {
   title: 'BlizzAPI',
-  description: 'Flexibly library for Blizzard Battle.net APIs',
+  description: 'Flexible feature-rich library for Blizzard Battle.net APIs',
   displayAllHeaders: true,
   themeConfig: {
     lastUpdated: 'Last Updated',
@@ -17,14 +17,27 @@ module.exports = {
         children: [
          '/docs/',
          '/docs/install.md',
+         '/docs/examples.md',
+        ],
+      },
+      {
+        title: 'Usage',
+        collapsable: false,
+        children: [
+         '/docs/usage/basic.md',
+         '/docs/usage/custom-access-token.md',
+         '/docs/usage/refreshing-access-token.md',
+         '/docs/usage/static-methods.md',
         ]
       },
       {
-        title: 'Usage and examples',
+        title: 'API Reference',
         collapsable: false,
         children: [
-         '/docs/',
-         '/docs/basic.md',
+         '/docs/api/initialization.md',
+         '/docs/api/methods.md',
+         '/docs/api/static-methods.md',
+         '/docs/api/options.md',
         ]
       }
     ]
