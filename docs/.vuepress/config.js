@@ -24,7 +24,7 @@ module.exports = {
         collapsable: false,
         children: [
          '/docs/',
-         '/docs/install.md',
+         '/docs/basic.md',
         ]
       }
     ]
