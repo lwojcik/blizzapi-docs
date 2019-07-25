@@ -28,6 +28,7 @@ module.exports = {
          '/docs/usage/basic.md',
          '/docs/usage/custom-access-token.md',
          '/docs/usage/refreshing-access-token.md',
+         '/docs/usage/validating-access-token.md',
          '/docs/usage/static-methods.md',
         ]
       },
