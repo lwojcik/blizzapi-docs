@@ -5,4 +5,4 @@
 
 Doc site for [BlizzAPI](https://github.com/lukemnet/blizzapi) deployed on [blizzapi.lukem.net](https://github.com/lukemnet/blizzapi).
 
-Build with [VuePress](https://vuepress.vuejs.org/).
+Built with [VuePress](https://vuepress.vuejs.org/).
