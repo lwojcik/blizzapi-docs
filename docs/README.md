@@ -22,5 +22,7 @@ const api = new BlizzAPI({
   clientSecret: 'client secret'
 });
 
-await api.query('/path/to/endpoint');
+const data = await api.query('/path/to/endpoint');
+
+console.log(data);
 ``` 
