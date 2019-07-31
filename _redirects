@@ -1,0 +1,7 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://www.blizzapi.lukem.net/* https://blizzapi.lukem.net/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://blizzapi.netlify.com/* https://blizzapi.lukem.net/:splat 301!
