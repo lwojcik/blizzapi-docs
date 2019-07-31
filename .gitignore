@@ -54,4 +54,5 @@ dist/
 src/*.js
 
 # generated docs
-docs/
+
+.vuepress/dist
