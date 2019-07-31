@@ -27,7 +27,7 @@ module.exports = {
         children: [
          '/docs/usage/initialization.md',
          '/docs/usage/custom-access-token.md',
-         '/docs/usage/refreshing-access-token.md',
+         '/docs/usage/getting-access-token.md',
          '/docs/usage/validating-access-token.md',
          '/docs/usage/query.md',
         ]
