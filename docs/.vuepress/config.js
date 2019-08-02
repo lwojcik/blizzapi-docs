@@ -50,6 +50,8 @@ module.exports = {
           '/docs/utils/checkIfLocaleLooksValid.md',
           '/docs/utils/validateLocale.md',
           '/docs/utils/isLocaleValidForRegionId.md',
+          '/docs/utils/getAllDefaultLocaleNames.md',
+          '/docs/utils/getDefaultLocaleNameForRegionId.md',
           '/docs/utils/getAllSc2Realms.md',
           '/docs/utils/getAllAvailableSc2Realms.md',
           '/docs/utils/getSc2RealmsByRegionId.md',
