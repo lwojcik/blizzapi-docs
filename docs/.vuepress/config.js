@@ -2,6 +2,9 @@ module.exports = {
   title: 'BlizzAPI',
   description: 'Flexible and feature-rich Node.js library for Blizzard Battle.net APIs',
   displayAllHeaders: true,
+  head: [
+    ['link', { rel: 'icon', href: `/logo.png` }],
+  ],
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
