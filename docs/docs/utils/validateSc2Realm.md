@@ -11,9 +11,9 @@ const BlizzAPI = require('blizzapi');
 console.log(BlizzAPI.validateSc2Realm(1));
 // true
 
-console.log(BlizzAPI.validateLocale(4));
+console.log(BlizzAPI.validateSc2Realm(4));
 // false
 
-console.log(BlizzAPI.validateLocale(42));
+console.log(BlizzAPI.validateSc2Realm(42));
 // RangeError: 42 is not a valid parameter for validateSc2Realm()
 ```
