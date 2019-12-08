@@ -1,6 +1,6 @@
 # Custom access token
 
-BlizzAPI can use custom OAuth access token to be used for data retrieval. If custom access token is provided, BlizzAPI will not request for a new one on each query. That results in shorter response time and allows for making OAuth authorization flow and data processing logic independent of each other.
+BlizzAPI can use OAuth access token from an outside source for data retrieval. If a custom access token is provided, BlizzAPI will not request for a new one on each query. That results in shorter response times and allows for separating OAuth authorization flow from data processing logic.
 
 As stated in [Blizzard Battle.net API docs](https://develop.battle.net/documentation/guides/using-oauth), access tokens last for 24 hours. They can be revoked by a number of different events (password change, account lockdown etc.). BlizzAPI can detect expired access token and obtain a new one, but ultimately **it is user's responsibility to keep custom access tokens valid and up to date**.
 
@@ -46,4 +46,4 @@ Callback function to run when BlizzAPI performs a query with invalid or expired 
 ### onAccessTokenRefresh
 Default ``undefined``
 
-Callback function to run when BlizzAPI obtains a new access token. It passes string representing new access token as a callback parameter. This can be used for different purposes like caching or logging.
+Callback function to run when BlizzAPI obtains a new access token. It passes string representing new access token as a callback parameter. This can be used for different purposes like logging or caching.
