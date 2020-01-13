@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.png
 actionText: Get Started →
 actionLink: /docs/
-footer: MIT Licensed • Copyright © 2019 Łukasz Wójcik • Not created, affiliated or endorsed in any way by Blizzard Entertainment
+footer: MIT Licensed • Copyright © 2019-2020 Łukasz Wójcik • Not created, affiliated or endorsed in any way by Blizzard Entertainment
 ---
 
 ### Install
