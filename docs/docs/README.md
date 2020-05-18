@@ -1,6 +1,6 @@
 # What is BlizzAPI?
 
-BlizzAPI is a Node.js library which simplifies authorization and retrieving data from [Blizzard Battle.net APIs](https://develop.battle.net/documentation/api-reference).
+BlizzAPI is a Node.js library which simplifies authorization and retrieving data from [Blizzard Battle.net APIs](https://develop.battle.net/documentation).
 
 BlizzAPI is not another glorified wrapper for a fetch library. It offers simple but powerful API and a vast number of useful utility functions based on abstractions used by Blizzard in their game data APIs.
 
