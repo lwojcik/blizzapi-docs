@@ -25,6 +25,6 @@
   },
   "snyk": true,
   "dependencies": {
-    "snyk": "^1.382.0"
+    "snyk": "^1.384.0"
   }
 }
