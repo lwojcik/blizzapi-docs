@@ -46,7 +46,7 @@ const BnetApi = new BlizzAPI({
   clientSecret: 'client secret',
 });
 
-const data = await BnetApi.query('/wow/character/гордунни/инициатива');
+const data = await BnetApi.query('/wow/character/gordunni/инициатива?namespace=profile-eu');
 
 // do something with data
 ```
