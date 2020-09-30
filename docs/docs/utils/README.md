@@ -19,6 +19,8 @@ The following utility methods are available:
 * [checkIfLocaleLooksValid](/docs/utils/checkIfLocaleLooksValid)
 * [validateLocale](/docs/utils/validateLocale)
 * [isLocaleValidForRegionId](/docs/utils/isLocaleValidForRegionId)
+* [getAllDefaultLocaleNames](/docs/utils/getAllDefaultLocaleNames.html)
+* [getdefaultlocalenameforregionid](/docs/utils/getdefaultlocalenameforregionid.html)
 * [getAllSc2Realms](/docs/utils/getAllSc2Realms)
 * [getAllAvailableSc2Realms](/docs/utils/getAllAvailableSc2Realms)
 * [getSc2RealmsByRegionId](/docs/utils/getSc2RealmsByRegionId)
