@@ -34,7 +34,7 @@ const data = await BnetApi.query('/sc2/profile/1/2/242838');
 
 // do something with data
 ```
-Custom headers, options and timepout parameters are also supported. Query paramert could contains any letters, such as cyrrilic or diakritikós.
+Custom headers, options and timeout parameters are also supported. Query parameters can contain any letters, such as cyrrilic or diakritikós.
 
 ```js
 const BlizzAPI = require('blizzapi');
