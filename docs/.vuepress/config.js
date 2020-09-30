@@ -16,28 +16,28 @@ module.exports = {
       ['/', 'Home'],
       {
         title: 'Getting started',
-        collapsable: false,
+        collapsable: true,
         children: [
-         '/docs/',
-         '/docs/requirements.md',
-         '/docs/install.md',
-         '/docs/examples.md',
+          '/docs/',
+          '/docs/requirements.md',
+          '/docs/install.md',
+          '/docs/examples.md',
         ],
       },
       {
         title: 'Usage',
-        collapsable: false,
+        collapsable: true,
         children: [
-         '/docs/usage/initialization.md',
-         '/docs/usage/custom-access-token.md',
-         '/docs/usage/getting-access-token.md',
-         '/docs/usage/validating-access-token.md',
-         '/docs/usage/query.md',
+          '/docs/usage/initialization.md',
+          '/docs/usage/custom-access-token.md',
+          '/docs/usage/getting-access-token.md',
+          '/docs/usage/validating-access-token.md',
+          '/docs/usage/query.md',
         ]
       },
       {
         title: 'Utility methods',
-        collapsable: false,
+        collapsable: true,
         children: [
           '/docs/utils/',
           '/docs/utils/getAllRegions.md',
