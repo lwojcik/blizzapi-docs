@@ -56,3 +56,5 @@ src/*.js
 # generated docs
 
 .vuepress/dist
+
+package-lock.json
