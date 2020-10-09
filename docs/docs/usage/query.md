@@ -69,3 +69,7 @@ const auction_data = await api.query('/data/wow/connected-realm/1602/auctions', 
 
 // do something with data
 ```
+
+## `lastModified` property
+
+If Battle.net API endpoints expose `last-modified` property in response headers, this value is passed in BlizzAPI response as `lastModified` property.
