@@ -2,7 +2,7 @@
 
 # blizzapi-docs
 
-[![Travis CI Build Status](https://travis-ci.com/lukemnet/blizzapi-docs.svg?branch=master)](https://travis-ci.com/lukemnet/blizzapi-docs)
+[![Build status](https://ci.appveyor.com/api/projects/status/9o7et2jqwnye6vmj/branch/master?svg=true)](https://ci.appveyor.com/project/lwojcik/blizzapi-docs/branch/master)
 
 Doc site for [BlizzAPI](https://github.com/lukemnet/blizzapi) deployed on [blizzapi.lukem.net](https://blizzapi.lukem.net) built with [VuePress](https://vuepress.vuejs.org/).
 
