@@ -4,6 +4,7 @@ module.exports = {
   displayAllHeaders: true,
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }],
+    ['meta', { name: 'twitter:dnt', content: 'on' }],
   ],
   themeConfig: {
     lastUpdated: 'Last Updated',
