@@ -12,7 +12,7 @@ const BNet = new BlizzAPI({
 
 to make your queries to Battle.net API.
 
-Also, on any import problems, don't forget to check your `tsconfig.json` file, for such `compilerOptions` as:
+Also, if you face any import problems, don't forget to check your `tsconfig.json` file, for such `compilerOptions` as:
 
 ```json
 {
@@ -26,9 +26,9 @@ Also, on any import problems, don't forget to check your `tsconfig.json` file, f
 
 ## Implementing BlizzAPI with Nest.js
 
-There are many various ways to implement BlizzAPI module with Nest.js. In this case, I just show one of many options, with throwdown already initialized instance of BlizzAPI.
+There are many various ways to implement BlizzAPI module with Nest.js. In this case, I just show one of many options, with throwdown an already initialized instance of BlizzAPI.
 
-In your `app.service.ts` or any other provider, just import module, via `import { BlizzAPI, BattleNetOptions } from 'blizzapi';` don't forget about `BattleNetOptions` type, if you are willing to use to pass arguments in to one of your functions as variable. Or via config or `.env` file.
+In your `app.service.ts` or any other provider, just import module, via `import { BlizzAPI, BattleNetOptions } from 'blizzapi';` don't forget about `BattleNetOptions` type, if you are willing to used to pass arguments in to one of your functions as variable. Or via config or `.env` file.
 
 ```js
 import { BlizzAPI, BattleNetOptions } from 'blizzapi';
@@ -70,7 +70,7 @@ export class AppService {
   }
   
   private async otherRequest(realm: string, name: string, BNet: BlizzAPI): Record<string, any> {
-   return response: Record<string, any> = await BNet.query(`/profile/wow/character/${realm}/${name}`, {
+   return response = await BNet.query(`/profile/wow/character/${realm}/${name}`, {
       params: { locale: 'en_GB' },
       headers: { 'Battlenet-Namespace': 'profile-eu' }
     })
