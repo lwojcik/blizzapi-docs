@@ -2,7 +2,7 @@
 
 Instead of using classic `common.js` with require: `const BlizzAPI = require('blizzapi');` you could use TypeScript: `import { BlizzAPI, BattleNetOptions } from 'blizzapi';` And then, initialize your BlizzAPI instance, with:
 
-```
+```js
 const BNet = new BlizzAPI({
   region: 'eu',
   clientId: args._id,
@@ -14,7 +14,7 @@ to make your queries to Battle.net API.
 
 Also, on any import problems, dont' forget to check your `tsconfig.json` file, for such `compilerOptions` as:
 
-```
+```json
   "module": "commonjs",
   "esModuleInterop": true,
   "allowSyntheticDefaultImports": true,
