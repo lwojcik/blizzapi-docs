@@ -12,7 +12,7 @@ const BNet = new BlizzAPI({
 
 to make your queries to Battle.net API.
 
-Also, on any import problems, dont' forget to check your `tsconfig.json` file, for such `compilerOptions` as:
+Also, on any import problems, don't forget to check your `tsconfig.json` file, for such `compilerOptions` as:
 
 ```json
 {
