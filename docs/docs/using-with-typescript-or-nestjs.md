@@ -1,4 +1,4 @@
-# Using with Typescript
+## Using with Typescript
 
 Instead of using classic `common.js` with require: `const BlizzAPI = require('blizzapi');` you could use TypeScript: `import { BlizzAPI, BattleNetOptions } from 'blizzapi';` And then, initialize your BlizzAPI instance, with:
 
@@ -24,7 +24,7 @@ Also, on any import problems, dont' forget to check your `tsconfig.json` file, f
 }
 ```
 
-# Implementing BlizzAPI with Nest.js
+## Implementing BlizzAPI with Nest.js
 
 There are many various ways to implement BlizzAPI module with Nest.js. In this case, I just show one of many options, with throwdown already initialized instance of BlizzAPI.
 
