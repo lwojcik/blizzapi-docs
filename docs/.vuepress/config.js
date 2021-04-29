@@ -22,6 +22,7 @@ module.exports = {
          '/docs/requirements.md',
          '/docs/install.md',
          '/docs/examples.md',
+         '/docs/using-with-typescript-or-nestjs.md'
         ],
       },
       {
