@@ -19,10 +19,11 @@ module.exports = {
         title: 'Getting started',
         collapsable: true,
         children: [
-          '/docs/',
-          '/docs/requirements.md',
-          '/docs/install.md',
-          '/docs/examples.md',
+         '/docs/',
+         '/docs/requirements.md',
+         '/docs/install.md',
+         '/docs/examples.md',
+         '/docs/using-with-typescript-or-nestjs.md',
         ],
       },
       {
