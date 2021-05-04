@@ -6,6 +6,11 @@ module.exports = {
     ['link', { rel: 'icon', href: `/logo.png` }],
     ['meta', { name: 'twitter:dnt', content: 'on' }],
   ],
+  plugins: {
+    sitemap: {
+      hostname: 'https://blizzapi.lukem.net'
+    },
+  },
   themeConfig: {
     lastUpdated: 'Last Updated',
     nav: [
@@ -19,11 +24,11 @@ module.exports = {
         title: 'Getting started',
         collapsable: true,
         children: [
-         '/docs/',
-         '/docs/requirements.md',
-         '/docs/install.md',
-         '/docs/examples.md',
-         '/docs/using-with-typescript-or-nestjs.md',
+          '/docs/',
+          '/docs/requirements.md',
+          '/docs/install.md',
+          '/docs/examples.md',
+          '/docs/using-with-typescript-or-nestjs.md',
         ],
       },
       {
