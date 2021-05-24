@@ -1,6 +1,6 @@
 ## Using with Typescript
 
-Instead of using classic `common.js` with require: `const BlizzAPI = require('blizzapi');` you could use TypeScript: `import { BlizzAPI, BattleNetOptions } from 'blizzapi';` And then, initialize your BlizzAPI instance, with:
+Instead of using classic `common.js` with require: `const { BlizzAPI } = require('blizzapi');` you could use TypeScript: `import { BlizzAPI, BattleNetOptions } from 'blizzapi';` And then, initialize your BlizzAPI instance, with:
 
 ```js
 const BNet = new BlizzAPI({

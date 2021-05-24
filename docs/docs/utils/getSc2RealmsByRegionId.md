@@ -5,7 +5,7 @@ Returns a flat array of StarCraft II realms associated with region ID provided a
 It throws ``RangeError`` when provided region ID is non-existent or invalid.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getSc2RealmsByRegionId(1));
 // [

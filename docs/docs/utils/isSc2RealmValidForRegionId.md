@@ -5,7 +5,7 @@ Checks if provided StarCraft II realm is valid for given region ID.
 It throws ``RangeError`` if StarCraft II realm or region ID is non-existent or invalid.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.isSc2RealmValidForRegionId(1, 1));
 // true

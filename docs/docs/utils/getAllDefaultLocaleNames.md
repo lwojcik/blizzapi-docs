@@ -3,7 +3,7 @@
 Returns an array of default locale names for each region.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getAllDefaultLocaleNames());
 // {

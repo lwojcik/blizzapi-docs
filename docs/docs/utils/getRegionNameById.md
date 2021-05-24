@@ -5,7 +5,7 @@ Returns an array of region names associated with region ID provided as a paramet
 It throws ``RangeError`` when provided region ID is non-existent or invalid.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getRegionNameById(1));
 // [

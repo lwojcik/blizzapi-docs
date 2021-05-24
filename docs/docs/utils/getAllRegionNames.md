@@ -3,7 +3,7 @@
 Returns a flat array containing all available Battle.net API region names.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getAllRegionNames());
 // [

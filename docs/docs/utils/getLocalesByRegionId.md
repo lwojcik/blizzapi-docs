@@ -5,7 +5,7 @@ Returns a flat array of locales associated with region ID provided as a paramete
 It throws ``RangeError`` when provided region ID is non-existent or invalid.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getLocalesByRegionId(1));
 // [

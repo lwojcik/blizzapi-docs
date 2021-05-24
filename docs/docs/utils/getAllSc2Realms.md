@@ -3,7 +3,7 @@
 Returns an object containing all StarCraft II realms available in each region.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getAllSc2Realms());
 // {
