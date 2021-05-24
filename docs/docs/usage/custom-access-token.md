@@ -7,7 +7,7 @@ As stated in [Blizzard Battle.net API docs](https://develop.battle.net/documenta
 Initialization with custom access token and additional options:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({
   region: 'us', // or 1

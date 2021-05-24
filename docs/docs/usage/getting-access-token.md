@@ -5,7 +5,7 @@ BlizzAPI exposes ``getAccessToken`` method which returns a promise of access tok
 Example with promises:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({ 'us', 'client id', 'client secret' });
 
@@ -19,7 +19,7 @@ Example with async / await:
 
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({{ 'us', 'client id', 'client secret' });
 const accessToken = await BnetApi.getAccessToken();

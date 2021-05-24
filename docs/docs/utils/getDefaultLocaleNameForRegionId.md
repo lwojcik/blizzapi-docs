@@ -6,7 +6,7 @@ It throws ``RangeError`` when provided region ID is non-existent or invalid.
 
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.getDefaultLocaleNameForRegionId(1));
 // "en_US"

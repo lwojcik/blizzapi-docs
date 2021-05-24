@@ -5,7 +5,7 @@ Data from Battle.net API can be fetched with ``query`` method. ``query`` returns
 Example with promises:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({
   region: 'us',
@@ -22,7 +22,7 @@ BnetApi.query('/sc2/profile/1/2/242838')
 Example with async / await:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({
   region: 'us',
@@ -42,7 +42,7 @@ BlizzAPI accepts an options object which can be used to pass custom headers, opt
 When `timeout` property is not set, BlizzAPI uses 10s as default response timeout.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({
   region: 'eu',

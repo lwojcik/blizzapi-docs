@@ -3,7 +3,7 @@
 Checks if string provided as an argument is a valid existing region name.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.validateRegionName('eu'));
 // true

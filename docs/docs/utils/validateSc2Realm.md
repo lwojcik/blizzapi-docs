@@ -6,7 +6,7 @@ It throws ``RangeError`` when provided StarCraft II realm does not pass regex va
 
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.validateSc2Realm(1));
 // true

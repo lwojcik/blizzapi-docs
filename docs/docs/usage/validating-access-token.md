@@ -5,7 +5,7 @@ BlizzAPI exposes ``validateAccessToken`` static method which checks if access to
 Example with promises:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 BlizzAPI.validateAccessToken('us', 'access token')
   .then((result) => {
@@ -20,7 +20,7 @@ Example with async / await:
 
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const isAccessTokenValid = await BlizzAPI.validateAccessToken('us', 'access token');
 

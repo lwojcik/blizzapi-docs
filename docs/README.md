@@ -3,7 +3,7 @@ home: true
 heroImage: /logo.png
 actionText: Get Started →
 actionLink: /docs/
-footer: MIT Licensed • Copyright © 2019-2021 Łukasz Wójcik • Not created, affiliated or endorsed in any way by Blizzard Entertainment
+footer: MIT Licensed • Copyright © 2019-2021 Łukasz Wójcik & contributors • Not created, affiliated or endorsed in any way by Blizzard Entertainment
 ---
 
 ### Install
@@ -15,10 +15,10 @@ npm install blizzapi
 ### Quick start
 
 ``` javascript
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 /**
- * Or using Typescript
+ * Or using TypeScript:
  * import { BlizzAPI } from 'blizzapi';
  */
 

@@ -5,7 +5,7 @@ Each BlizzAPI instance is tied to a specific Battle.net region and requires OAut
 Initialization with OAuth app credentials:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({
   region: 'us', // or 1
@@ -17,7 +17,7 @@ const BnetApi = new BlizzAPI({
 Initalization with OAuth access token:
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 const BnetApi = new BlizzAPI({
   region: 'us', // or 1

@@ -5,7 +5,7 @@ Checks if provided locale is valid for given region ID.
 It throws ``RangeError`` if locale or region ID is non-existent or invalid.
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.isLocaleValidForRegionId('en_US', 1));
 // true

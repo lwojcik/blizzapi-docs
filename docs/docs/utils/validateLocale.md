@@ -6,7 +6,7 @@ It throws ``RangeError`` when provided locale does not pass regex validation wit
 
 
 ```js
-const BlizzAPI = require('blizzapi');
+const { BlizzAPI } = require('blizzapi');
 
 console.log(BlizzAPI.validateLocale('en_US'));
 // true
