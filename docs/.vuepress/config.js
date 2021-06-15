@@ -16,7 +16,7 @@ module.exports = {
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Docs', link: '/docs/' },
-      { text: 'GitHub', link: 'https://github.com/lukemnet/blizzapi' },
+      { text: 'GitHub', link: 'https://github.com/blizzapi/blizzapi' },
     ],
     sidebar: [
       ['/', 'Home'],
