@@ -1,15 +1,15 @@
-<img src="https://raw.githubusercontent.com/lukemnet/blizzapi-docs/master/docs/.vuepress/public/logo.png" alt="BlizzAPI logo" width="200" height="200">
+<img src="https://raw.githubusercontent.com/blizzapi/blizzapi-docs/master/docs/.vuepress/public/logo.png" alt="BlizzAPI logo" width="200" height="200">
 
 # blizzapi-docs
 
 [![Build status](https://ci.appveyor.com/api/projects/status/9o7et2jqwnye6vmj/branch/master?svg=true)](https://ci.appveyor.com/project/lwojcik/blizzapi-docs/branch/master)
 
-Doc site for [BlizzAPI](https://github.com/lukemnet/blizzapi) deployed on [blizzapi.lukem.net](https://blizzapi.lukem.net) built with [VuePress](https://vuepress.vuejs.org/).
+Doc site for [BlizzAPI](https://github.com/blizzapi/blizzapi) deployed on [blizzapi.lukem.net](https://blizzapi.lukem.net) built with [VuePress](https://vuepress.vuejs.org/).
 
 ## Install and run locally
 
 ```bash
-git clone https://github.com/lukemnet/blizzapi-docs.git
+git clone https://github.com/blizzapi/blizzapi-docs.git
 cd blizzapi-docs
 npm install
 npm run dev
@@ -23,17 +23,17 @@ Contributions of any kind are welcome.
 
 Minor corrections (e.g. typo fixes, better code samples) can be submitted as PRs via GitHub web interface.
 
-Before contributing be sure to read [BlizzAPI Contributing Guidelines](https://github.com/lukemnet/blizzapi/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/lukemnet/blizzapi-docs/blob/master/CODE_OF_CONDUCT.md).
+Before contributing be sure to read [BlizzAPI Contributing Guidelines](https://github.com/blizzapi/blizzapi/blob/master/CONTRIBUTING.md) and [Code of Conduct](https://github.com/blizzapi/blizzapi-docs/blob/master/CODE_OF_CONDUCT.md).
 
 ## Contributors
 
 Thank you for improving BlizzAPI documentation!
 
-We maintain an [AUTHORS](https://github.com/lukemnet/blizzapi-docs/blob/master/AUTHORS) file where we keep a list of all project contributors. Please consider adding your name there with your next PR.
+We maintain an [AUTHORS](https://github.com/blizzapi/blizzapi-docs/blob/master/AUTHORS) file where we keep a list of all project contributors. Please consider adding your name there with your next PR.
 
 ## License
 
-Licensed under MIT License. See [LICENSE](https://github.com/lukemnet/blizzapi-docs/blob/master/LICENSE) for more information.
+Licensed under MIT License. See [LICENSE](https://github.com/blizzapi/blizzapi-docs/blob/master/LICENSE) for more information.
 
 ## Legal
 
