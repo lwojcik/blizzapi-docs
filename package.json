@@ -12,7 +12,10 @@
     "type": "git",
     "url": "git+https://github.com/blizzapi/blizzapi-docs.git"
   },
-  "author": "Łukasz Wójcik",
+  "author": {
+    "name": "BlizzAPI + Contributors",
+    "url": "https://github.com/blizzapi"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/blizzapi/blizzapi-docs/issues"
