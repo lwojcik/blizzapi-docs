@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/blizzapi/blizzapi-docs#readme",
   "dependencies": {
-    "vuepress": "1.8.2",
+    "vuepress": "1.8.3",
     "vuepress-plugin-sitemap": "2.3.1"
   }
 }
