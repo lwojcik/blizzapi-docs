@@ -2,7 +2,7 @@
 
 Tests if an argument matches the regex pattern typical for StarCraft II realms.
 
-This function does not determine whether the realm exists in Battle.net API. For locale validation see [validateSc2Realm](/docs/utils/validateSc2Realm.html). 
+This function does not determine whether the realm exists in Battle.net API. For actual StarCraft II realm validation see [validateSc2Realm](/docs/utils/validateSc2Realm.html). 
 
 ```js
 const { BlizzAPI } = require('blizzapi');
