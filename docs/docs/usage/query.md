@@ -51,10 +51,16 @@ const BnetApi = new BlizzAPI({
 });
 
 // character profile-endpoint as query param
-const character_query = await BnetApi.query('/profile/wow/character/gordunni/инициатива?namespace=profile-eu');
+const character_query = await BnetApi.query(
+  '/profile/wow/character/gordunni/инициатива?namespace=profile-eu'
+);
 
 // character profile-endpoint as header
-const character_header = await api.query('/profile/wow/character/gordunni/инициатива', { headers: { 'Battlenet-Namespace':'profile-eu' } } );
+const character_header = await api.query('/profile/wow/character/gordunni/инициатива', {
+      headers: {
+          'Battlenet-Namespace':'profile-eu'
+      }
+});
 
 // auction house dynamic-endpoint with timeout and if-modified-since header
 const auction_data = await api.query('/data/wow/connected-realm/1602/auctions', {
