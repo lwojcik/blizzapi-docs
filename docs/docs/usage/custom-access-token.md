@@ -41,9 +41,9 @@ If set to ``true``, BlizzAPI will attempt to obtain a new access token if author
 ### onAccessTokenExpired
 Default: ``undefined``
 
-Callback function to run when BlizzAPI performs a query with invalid or expired access token. This can be used for different purposes like logging or triggering alerts.
+Callback function to run when BlizzAPI performs a query with invalid or expired access token. This can be used for variety of purposes, such as logging or triggering alerts.
 
 ### onAccessTokenRefresh
 Default ``undefined``
 
-Callback function to run when BlizzAPI obtains a new access token. It passes string representing new access token as a callback parameter. This can be used for different purposes like logging or caching.
+Callback function to run when BlizzAPI obtains a new access token. It passes string representing new access token as a callback parameter. This can be used for variety of purposes, such as logging or caching.
