@@ -2,7 +2,7 @@
 
 BlizzAPI can use OAuth access token from an outside source for data retrieval. If a custom access token is provided, BlizzAPI will not request for a new one on each query. That results in shorter response times and allows for separating OAuth authorization flow from data processing logic.
 
-As stated in [Blizzard Battle.net API docs](https://develop.battle.net/documentation/guides/using-oauth), access tokens last for 24 hours. They can be revoked by a number of different events (password change, account lockdown etc.). BlizzAPI can detect expired access token and obtain a new one, but ultimately **it is user's responsibility to keep custom access tokens valid and up to date**.
+As stated in [Blizzard Battle.net API docs](https://develop.battle.net/documentation/guides/using-oauth), access tokens last for 24 hours. They can be revoked by a number of different events (password change, account lockdown etc.). BlizzAPI can detect expired access token and obtain a new one if client id and client secret are provided. However, **it is user's responsibility to keep custom access tokens valid and up to date**.
 
 Initialization with custom access token and additional options:
 
