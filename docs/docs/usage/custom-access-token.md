@@ -36,12 +36,12 @@ If set to ``true``, BlizzAPI will perform additional access token validation req
 ### refreshExpiredAccessToken
 Default: ``false``
 
-If set to ``true``, BlizzAPI will attempt to obtain a new access token if authorization error is encountered (e.g. invalid or expired access token is provided).
+If set to ``true``, BlizzAPI will attempt to obtain a new access token if authorization error is encountered (e.g. invalid or expired access token is provided). Note that if you don't initialize BlizzAPI with `clientId` and `clientSecret`, using this option will trigger an error.
 
 ### onAccessTokenExpired
 Default: ``undefined``
 
-Callback function to run when BlizzAPI performs a query with invalid or expired access token. This can be used for variety of purposes, such as logging or triggering alerts.
+Callback function to run when BlizzAPI performs a query with invalid or expired access token. If you initialize BlizzAPI with custom access token (e.g. no `clientId` / `clientSecret` provided), you should treat this property as mandatory, as your expired access token won't refresh itself. You can also use this property for variety of other purposes, such as logging or triggering alerts.
 
 ### onAccessTokenRefresh
 Default ``undefined``
