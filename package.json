@@ -23,7 +23,7 @@
   "homepage": "https://github.com/blizzapi/blizzapi-docs#readme",
   "dependencies": {
     "@lukemnet/vuepress-plugin-matomo": "^1.0.3",
-    "vuepress": "1.8.3",
+    "vuepress": "1.9.7",
     "vuepress-plugin-sitemap": "2.3.1"
   }
 }
