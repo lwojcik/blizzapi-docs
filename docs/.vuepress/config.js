@@ -11,11 +11,6 @@ module.exports = {
     sitemap: {
       hostname: "https://blizzapi.lukem.net",
     },
-    "@lukemnet/vuepress-plugin-matomo": {
-      siteId: 7,
-      trackerUrl: "https://s.lukem.eu/",
-      trackerJsFile: "vqmwssk.php",
-    },
   },
   themeConfig: {
     lastUpdated: "Last Updated",
