@@ -2,7 +2,7 @@
 
 # blizzapi-docs
 
-[![Build status](https://ci.appveyor.com/api/projects/status/9o7et2jqwnye6vmj/branch/master?svg=true)](https://ci.appveyor.com/project/lwojcik/blizzapi-docs/branch/master)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/2c7f3728-ff51-42a0-8e40-c99a98575a6e/deploy-status)](https://app.netlify.com/sites/blizzapi/deploys)
 
 Doc site for [BlizzAPI](https://github.com/blizzapi/blizzapi) deployed on [blizzapi.lukem.net](https://blizzapi.lukem.net) built with [VuePress](https://vuepress.vuejs.org/).
 
