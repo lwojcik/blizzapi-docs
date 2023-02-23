@@ -41,7 +41,7 @@ module.exports = {
           "/docs/usage/getting-access-token.md",
           "/docs/usage/validating-access-token.md",
           "/docs/usage/query.md",
-          "/docs/usage/switching-region.md",
+          "/docs/usage/switching-api-regions.md",
         ],
       },
       {
