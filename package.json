@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "vuepress dev docs",
+    "dev": "NODE_OPTIONS=--openssl-legacy-provider vuepress dev docs",
     "build": "NODE_OPTIONS=--openssl-legacy-provider vuepress build docs",
     "serve": "serve docs/.vuepress/dist"
   },
@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/blizzapi/blizzapi-docs#readme",
   "dependencies": {
-    "vuepress": "1.9.8",
+    "vuepress": "1.9.9",
     "vuepress-plugin-sitemap": "2.3.1"
   },
   "devDependencies": {
